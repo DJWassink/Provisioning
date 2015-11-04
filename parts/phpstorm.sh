@@ -1,11 +1,11 @@
-wget http://download.jetbrains.com/webide/PhpStorm-9.0.2.tar.gz
+wget http://download.jetbrains.com/webide/PhpStorm-10.0.tar.gz
 
-tar -xvf PhpStorm-9.0.2.tar.gz
+tar -xvf PhpStorm-10.0.tar.gz
 
-rm PhpStorm-9.0.2.tar.gz
+rm PhpStorm-10.0.tar.gz
 
-mv PhpStorm-141.2462 /opt/
+sudo mv PhpStorm-143.381.48 /opt/
 
-cd /opt/PhpStorm-141.2462/bin
+cd /opt/PhpStorm-143.381.48/bin
 
 ./phpstorm.sh
