@@ -16,7 +16,7 @@ sudo sh -c "echo 'xdebug.max_nesting_level=500' >> /etc/php5/cli/conf.d/20-xdebu
 
 sudo php5enmod mcrypt
 
+curl -sS https://getcomposer.org/installer | php
 sudo mkdir /opt/composer
-sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/opt/composer/
-sudo mv /opt/composer/composer.phar /opt/composer/composer
-sudo sh -c "echo 'export PATH=/opt/composer:$PATH' > ~/.env"
+sudo mv composer.phar /opt/composer/composer
+sudo sh -c "echo 'export PATH=/opt/composer:$PATH' > /etc/environment"
