@@ -19,4 +19,4 @@ sudo php5enmod mcrypt
 sudo mkdir /opt/composer
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/opt/composer/
 sudo mv /opt/composer/composer.phar /opt/composer/composer
-echo 'export PATH=/opt/composer:$PATH' >> ~/.env
+sudo sh -c "echo 'export PATH=/opt/composer:$PATH' > ~/.env"
